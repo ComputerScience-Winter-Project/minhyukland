@@ -1,9 +1,15 @@
 
 public class Main {
-	final static int INT_MAX = 247483647;
+	
 	public static void main(String[] args) {
-		int a = INT_MAX;
-		System.out.println(a+1);
+	for(int i= 1; i<=9;i++)
+	{
+		for(int j=1; j<10;j++)
+		{
+			System.out.println(i+"*"+j +"=" + i*j);
+		}
+	}
+		
 	}
 
 }
